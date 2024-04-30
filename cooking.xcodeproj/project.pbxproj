@@ -34,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		771E71AF2BE1992D0080C611 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE2F41FB2BA7E1E500796ABD /* Assets.xcassets */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		AE2F41EB2BA7E1E200796ABD = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +65,7 @@
 				AE2F41F72BA7E1E200796ABD /* cookingApp.swift */,
 				AE2F41F92BA7E1E200796ABD /* ContentView.swift */,
 				AE7FE54D2BC06A60006FA494 /* view2.swift */,
-				AE2F41FB2BA7E1E500796ABD /* Assets.xcassets */,
+				771E71AF2BE1992D0080C611 /* Model */,
 				AE2F41FD2BA7E1E500796ABD /* Preview Content */,
 			);
 			path = cooking;
@@ -77,7 +85,6 @@
 				DBC7BB082BE1973900D15E0D /* drinks */,
 				DBC7BB072BE1973200D15E0D /* soup */,
 				DBC7BB062BE1972700D15E0D /* snacks */,
-				DBC7BB052BE196FD00D15E0D /* dessert */,
 				DBC7BB042BE196EB00D15E0D /* meals */,
 			);
 			path = recipes;
@@ -88,13 +95,6 @@
 			children = (
 			);
 			path = meals;
-			sourceTree = "<group>";
-		};
-		DBC7BB052BE196FD00D15E0D /* dessert */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = dessert;
 			sourceTree = "<group>";
 		};
 		DBC7BB062BE1972700D15E0D /* snacks */ = {
