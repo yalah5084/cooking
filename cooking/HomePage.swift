@@ -37,7 +37,7 @@ struct HomePage: View {
 
                 HStack {
                     NavigationLink {
-                        ContentView()
+                        recipe_chicken_alfredo()
                     } label: {
                         Image("Alfredo-chicken")
                             .resizable()
