@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct recipe_extend: View {
+struct recipe_chicken_alfredo: View {
     var body: some View {
         NavigationView {
             ScrollView {
@@ -86,5 +86,5 @@ struct recipe_extend: View {
 }
 
 #Preview {
-    recipe_extend()
+    recipe_chicken_alfredo()
 }
