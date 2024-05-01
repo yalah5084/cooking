@@ -39,7 +39,7 @@ struct HomePage: View {
                     NavigationLink {
                         recipe_chicken_alfredo()
                     } label: {
-                        Image("Alfredo-chicken")
+                        Image("chicken-alfredo")
                             .resizable()
                             .frame(width: 100, height: 100)
                         VStack {
@@ -107,7 +107,7 @@ struct HomePage: View {
                     NavigationLink {
 //                        ContentView()
                     } label: {
-                        Image("Potato-wedge")
+                        Image("potato-wedges")
                             .resizable()
                             .frame(width: 100, height: 100)
                         VStack {
@@ -124,7 +124,7 @@ struct HomePage: View {
                     NavigationLink {
 //                        ContentView()
                     } label: {
-                        Image("Dragon-drink")
+                        Image("dragonfruit-drink")
                             .resizable()
                             .frame(width: 100, height: 100)
                         VStack {
@@ -138,7 +138,7 @@ struct HomePage: View {
                     NavigationLink {
 //                        ()
                     } label: {
-                        Image("Lemon-drink")
+                        Image("fermented-lemon")
                             .resizable()
                             .frame(width: 100, height: 100)
                         VStack {

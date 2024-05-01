@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		771E71B12BE19CAF0080C611 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E71B02BE19CAF0080C611 /* RecipeModel.swift */; };
+		771E71C82BE1EC2E0080C611 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E71C72BE1EC2E0080C611 /* TabBar.swift */; };
+		771E71CA2BE1ECE40080C611 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E71C92BE1ECE40080C611 /* CategoriesView.swift */; };
+		771E71CC2BE1F0150080C611 /* recipe-fermented-lemon-drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E71CB2BE1F0150080C611 /* recipe-fermented-lemon-drink.swift */; };
+		771E71CE2BE1F2EA0080C611 /* recipe-dragonfruit-drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E71CD2BE1F2EA0080C611 /* recipe-dragonfruit-drink.swift */; };
+		771E71D02BE1F39A0080C611 /* recipe-italian-meatballs-soup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E71CF2BE1F3990080C611 /* recipe-italian-meatballs-soup.swift */; };
+		771E71D22BE1F3C10080C611 /* recipe-potato-wedges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E71D12BE1F3C10080C611 /* recipe-potato-wedges.swift */; };
 		AE28EDA42BE1CA0C00EA0B4C /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE28EDA32BE1CA0C00EA0B4C /* HomePage.swift */; };
 		AE2F41F82BA7E1E200796ABD /* cookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2F41F72BA7E1E200796ABD /* cookingApp.swift */; };
 		AE2F41FA2BA7E1E200796ABD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2F41F92BA7E1E200796ABD /* ContentView.swift */; };
@@ -19,6 +25,12 @@
 
 /* Begin PBXFileReference section */
 		771E71B02BE19CAF0080C611 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		771E71C72BE1EC2E0080C611 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		771E71C92BE1ECE40080C611 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		771E71CB2BE1F0150080C611 /* recipe-fermented-lemon-drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "recipe-fermented-lemon-drink.swift"; sourceTree = "<group>"; };
+		771E71CD2BE1F2EA0080C611 /* recipe-dragonfruit-drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "recipe-dragonfruit-drink.swift"; sourceTree = "<group>"; };
+		771E71CF2BE1F3990080C611 /* recipe-italian-meatballs-soup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "recipe-italian-meatballs-soup.swift"; sourceTree = "<group>"; };
+		771E71D12BE1F3C10080C611 /* recipe-potato-wedges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "recipe-potato-wedges.swift"; sourceTree = "<group>"; };
 		AE28EDA32BE1CA0C00EA0B4C /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		AE2F41F42BA7E1E200796ABD /* cooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2F41F72BA7E1E200796ABD /* cookingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cookingApp.swift; sourceTree = "<group>"; };
@@ -71,7 +83,9 @@
 				AE2F41F72BA7E1E200796ABD /* cookingApp.swift */,
 				AE2F41F92BA7E1E200796ABD /* ContentView.swift */,
 				AE7FE54D2BC06A60006FA494 /* view2.swift */,
+				771E71C92BE1ECE40080C611 /* CategoriesView.swift */,
 				AE28EDA32BE1CA0C00EA0B4C /* HomePage.swift */,
+				771E71C72BE1EC2E0080C611 /* TabBar.swift */,
 				AE2F41FB2BA7E1E500796ABD /* Assets.xcassets */,
 				771E71AF2BE1992D0080C611 /* Model */,
 				AE2F41FD2BA7E1E500796ABD /* Preview Content */,
@@ -91,6 +105,10 @@
 			isa = PBXGroup;
 			children = (
 				DB7346FB2BE1E356004A0A58 /* recipe-chicken-alfredo.swift */,
+				771E71CB2BE1F0150080C611 /* recipe-fermented-lemon-drink.swift */,
+				771E71CD2BE1F2EA0080C611 /* recipe-dragonfruit-drink.swift */,
+				771E71CF2BE1F3990080C611 /* recipe-italian-meatballs-soup.swift */,
+				771E71D12BE1F3C10080C611 /* recipe-potato-wedges.swift */,
 			);
 			path = recipes;
 			sourceTree = "<group>";
@@ -165,12 +183,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				771E71CA2BE1ECE40080C611 /* CategoriesView.swift in Sources */,
 				AE28EDA42BE1CA0C00EA0B4C /* HomePage.swift in Sources */,
 				DB7346FC2BE1E356004A0A58 /* recipe-chicken-alfredo.swift in Sources */,
 				AE2F41FA2BA7E1E200796ABD /* ContentView.swift in Sources */,
+				771E71D02BE1F39A0080C611 /* recipe-italian-meatballs-soup.swift in Sources */,
+				771E71D22BE1F3C10080C611 /* recipe-potato-wedges.swift in Sources */,
+				771E71CC2BE1F0150080C611 /* recipe-fermented-lemon-drink.swift in Sources */,
 				771E71B12BE19CAF0080C611 /* RecipeModel.swift in Sources */,
+				771E71CE2BE1F2EA0080C611 /* recipe-dragonfruit-drink.swift in Sources */,
 				AE2F41F82BA7E1E200796ABD /* cookingApp.swift in Sources */,
 				AE7FE54E2BC06A60006FA494 /* view2.swift in Sources */,
+				771E71C82BE1EC2E0080C611 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
