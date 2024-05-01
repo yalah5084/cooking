@@ -12,6 +12,13 @@ struct view2: View {
         VStack {
             Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
         }
+        NavigationView {
+            List(Recipe.all) { recipe in
+                Text(recipe.name)
+                    .navigationTitle("Recipes")
+            }
+        }
+        .navigationViewStyle(.stack)
     }
 }
 
