@@ -14,6 +14,7 @@
 		AE2F41FC2BA7E1E500796ABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2F41FB2BA7E1E500796ABD /* Assets.xcassets */; };
 		AE2F41FF2BA7E1E500796ABD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2F41FE2BA7E1E500796ABD /* Preview Assets.xcassets */; };
 		AE7FE54E2BC06A60006FA494 /* view2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FE54D2BC06A60006FA494 /* view2.swift */; };
+		DB7346FC2BE1E356004A0A58 /* recipe-extend.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7346FB2BE1E356004A0A58 /* recipe-extend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		AE2F41FB2BA7E1E500796ABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE2F41FE2BA7E1E500796ABD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AE7FE54D2BC06A60006FA494 /* view2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view2.swift; sourceTree = "<group>"; };
+		DB7346FB2BE1E356004A0A58 /* recipe-extend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "recipe-extend.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		AE2F41F62BA7E1E200796ABD /* cooking */ = {
 			isa = PBXGroup;
 			children = (
+				DB7346FA2BE1E341004A0A58 /* recipes */,
 				AE2F41F72BA7E1E200796ABD /* cookingApp.swift */,
 				AE2F41F92BA7E1E200796ABD /* ContentView.swift */,
 				AE7FE54D2BC06A60006FA494 /* view2.swift */,
@@ -82,6 +85,14 @@
 				AE2F41FE2BA7E1E500796ABD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB7346FA2BE1E341004A0A58 /* recipes */ = {
+			isa = PBXGroup;
+			children = (
+				DB7346FB2BE1E356004A0A58 /* recipe-extend.swift */,
+			);
+			path = recipes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE28EDA42BE1CA0C00EA0B4C /* HomePage.swift in Sources */,
+				DB7346FC2BE1E356004A0A58 /* recipe-extend.swift in Sources */,
 				AE2F41FA2BA7E1E200796ABD /* ContentView.swift in Sources */,
 				771E71B12BE19CAF0080C611 /* RecipeModel.swift in Sources */,
 				AE2F41F82BA7E1E200796ABD /* cookingApp.swift in Sources */,
