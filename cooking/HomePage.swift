@@ -136,7 +136,7 @@ struct HomePage: View {
                 
                 
                 // Drinks
-                Text("Drnks")
+                Text("Drinks")
                 
                 HStack {
                     NavigationLink {
