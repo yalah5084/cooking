@@ -19,88 +19,141 @@ struct HomePage: View {
     var drinks = [["Dragon Fruit", "10 minutes"], ["Fermented Lemon", "5 minutes"]]
     
     var body: some View {
-        Text("Recipes")
-            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+//        Text("Recipes")
+//            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
         
-        List {
-            // Meals
-            Text("Meals")
-                .bold(true)
-            HStack {
-                Image("Alfredo-chicken")
-                    .resizable()
-                    .frame(width: 100, height: 100)
-                Text(meals[0][0])
-                Spacer()
-                Text(meals[0][1])
+        NavigationSplitView {
+            List {
+//                NavigationLink {
+//                    LandmarkDetail()
+//                } label: {
+                
+//                }
+                
+                // Meals
+                Text("Meals")
+                    .bold(true)
+                
+
+                HStack {
+                    NavigationLink {
+                        ContentView()
+                    } label: {
+                        Image("Alfredo-chicken")
+                            .resizable()
+                            .frame(width: 100, height: 100)
+                        VStack {
+                            Text(meals[0][0])
+                                .bold(true)
+                            Text(meals[0][1])
+
+                        }
+                        
+                    }
+
+                }
+                
+                HStack {
+                    NavigationLink {
+//                        ContentView()
+                    } label: {
+                        Image("empanadas")
+                            .resizable()
+                            .frame(width: 100, height: 100)
+                        VStack {
+                            Text(meals[1][0])
+                            Text(meals[1][1])
+                        }
+                    }
+                }
+                
+                
+                // Desserts
+                Text("Desserts")
+                
+                HStack {
+                    NavigationLink {
+//                        ContentView()
+                    } label: {
+                        Image("white-choco-mango-cheesecake")
+                            .resizable()
+                            .frame(width: 100, height: 100)
+                        VStack {
+                            Text(desserts[0][0])
+                            Text(desserts[0][1])
+                        }
+                    }
+                }
+                
+                HStack {
+                    NavigationLink {
+//                        ContentView()
+                    } label: {
+                        Image("choco-chip-cookie")
+                            .resizable()
+                            .frame(width: 100, height: 100)
+                        VStack {
+                            Text(desserts[1][0])
+                            Text(desserts[1][1])
+                        }
+                    }
+                }
+                
+                
+                // Snacks
+                Text("Snacks")
+                
+                HStack {
+                    NavigationLink {
+//                        ContentView()
+                    } label: {
+                        Image("Potato-wedge")
+                            .resizable()
+                            .frame(width: 100, height: 100)
+                        VStack {
+                            Text(snacks[0][0])
+                            Text(snacks[0][1])
+                        }
+                    }
+                }
+                
+                // Drinks
+                Text("Drnks")
+                
+                HStack {
+                    NavigationLink {
+//                        ContentView()
+                    } label: {
+                        Image("Dragon-drink")
+                            .resizable()
+                            .frame(width: 100, height: 100)
+                        VStack {
+                            Text(drinks[0][0])
+                            Text(drinks[0][1])
+                        }
+                    }
+                }
+                
+                HStack {
+                    NavigationLink {
+//                        ()
+                    } label: {
+                        Image("Lemon-drink")
+                            .resizable()
+                            .frame(width: 100, height: 100)
+                        VStack {
+                            Text(drinks[1][0])
+                            Text(drinks[1][1])
+                        }
+                    }
+                }
+                
             }
-            
-            HStack {
-                Image("empanadas")
-                    .resizable()
-                    .frame(width: 100, height: 100)
-                Text(meals[1][0])
-                Spacer()
-                Text(meals[1][1])
-            }
-            
-            
-            // Desserts
-            Text("Desserts")
-            
-            HStack {
-                Image("white-choco-mango-cheesecake")
-                    .resizable()
-                    .frame(width: 100, height: 100)
-                Text(desserts[0][0])
-                Spacer()
-                Text(desserts[0][1])
-            }
-            
-            HStack {
-                Image("choco-chip-cookie")
-                    .resizable()
-                    .frame(width: 100, height: 100)
-                Text(desserts[1][0])
-                Spacer()
-                Text(desserts[1][1])
-            }
-            
-            
-            // Snacks
-            Text("Snacks")
-            
-            HStack {
-                Image("Potato-wedge")
-                    .resizable()
-                    .frame(width: 100, height: 100)
-                Text(snacks[0][0])
-                Spacer()
-                Text(snacks[0][1])
-            }
-            
-            // Drinks
-            Text("Drnks")
-            
-            HStack {
-                Image("Dragon-drink")
-                    .resizable()
-                    .frame(width: 100, height: 100)
-                Text(drinks[0][0])
-                Spacer()
-                Text(drinks[0][1])
-            }
-            
-            HStack {
-                Image("Lemon-drink")
-                    .resizable()
-                    .frame(width: 100, height: 100)
-                Text(drinks[1][0])
-                Spacer()
-                Text(drinks[1][1])
-            }
-            
+            .navigationTitle("Recipes")
+        } detail: {
+            Text("Select a recipe")
         }
+        
         
     }
 }
