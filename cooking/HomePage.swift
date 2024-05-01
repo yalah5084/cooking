@@ -14,7 +14,7 @@ struct HomePage: View {
     
     var snacks = [["Potato Wedges", "40-50 minutes"], ["Potato Chips", "10 minutes"]]
     
-    var soup = [["Italian Meatball Soup", "30 minutes"]]
+    var soups = [["Italian Meatball Soup", "30 minutes"]]
     
     var drinks = [["Dragon Fruit", "10 minutes"], ["Fermented Lemon", "5 minutes"]]
     
@@ -55,7 +55,7 @@ struct HomePage: View {
                 
                 HStack {
                     NavigationLink {
-//                        ContentView()
+                        recipe_empanadas()
                     } label: {
                         Image("empanadas")
                             .resizable()
@@ -73,7 +73,7 @@ struct HomePage: View {
                 
                 HStack {
                     NavigationLink {
-//                        ContentView()
+                        recipe_mango_cheesecake()
                     } label: {
                         Image("white-choco-mango-cheesecake")
                             .resizable()
@@ -87,7 +87,7 @@ struct HomePage: View {
                 
                 HStack {
                     NavigationLink {
-//                        ContentView()
+                        recipe_choco_chip_cookie()
                     } label: {
                         Image("choco-chip-cookie")
                             .resizable()
@@ -105,7 +105,7 @@ struct HomePage: View {
                 
                 HStack {
                     NavigationLink {
-//                        ContentView()
+                        recipe_potato_wedges()
                     } label: {
                         Image("potato-wedges")
                             .resizable()
@@ -117,12 +117,30 @@ struct HomePage: View {
                     }
                 }
                 
+                
+                // soups
+                Text("Soups")
+                HStack {
+                    NavigationLink {
+                        recipe_italian_meatballs_soup()
+                    } label: {
+                        Image("italian-meatball-soup")
+                            .resizable()
+                            .frame(width: 100, height: 100)
+                        VStack {
+                            Text(soups[0][0])
+                            Text(soups[0][1])
+                        }
+                    }
+                }
+                
+                
                 // Drinks
                 Text("Drnks")
                 
                 HStack {
                     NavigationLink {
-//                        ContentView()
+                        recipe_dragonfruit_drink()
                     } label: {
                         Image("dragonfruit-drink")
                             .resizable()
@@ -136,7 +154,7 @@ struct HomePage: View {
                 
                 HStack {
                     NavigationLink {
-//                        ()
+                        recipe_fermented_lemon_drink()
                     } label: {
                         Image("fermented-lemon")
                             .resizable()
