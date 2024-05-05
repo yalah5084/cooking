@@ -25,7 +25,31 @@ struct recipe_mango_cheesecake: View {
                     // category
                     Text("Desserts")
                         .font(.title).bold()
-                        .padding(.horizontal)
+                        .padding()
+                    
+                    VStack(alignment: .leading) {
+                        Text("Ingredients:")
+                            .font(.title3).bold()
+                        
+                        Text("biscuits, 100g unsalted butter melted, 50g crystalized ginger optional")
+                            .font(.body)
+                            .padding(.horizontal)
+                        Text("FILLING:")
+                            .font(.body)
+                            .padding(.horizontal)
+                        Text("250g cream cheese (room temperature), 200ml condensed milk, 150g white chocolate melted, 150ml cream, 3.5 tsp gelatine powder, 125ml boiling water")
+                            .font(.body)
+                            .padding(.horizontal)
+                        Text("TOPPING: ")
+                            .font(.body)
+                            .padding(.horizontal)
+                        Text("2 mangoes, 4tbs caster sugar, 2tsp gelatine powder, 100ml boiling water")
+                            .font(.body)
+                            .padding(.horizontal)
+                        
+                        
+                    }
+                    .padding(.horizontal)
                     
                     VStack(alignment: .leading) {
                         VStack(alignment: .leading) {
@@ -61,29 +85,7 @@ struct recipe_mango_cheesecake: View {
                         .frame(maxHeight: .infinity, alignment: .top)
                         .padding()
                         
-                        VStack(alignment: .leading) {
-                            Text("Ingredients:")
-                                .font(.title3).bold()
-                            
-                            Text("biscuits, 100g unsalted butter melted, 50g crystalized ginger optional")
-                                .font(.body)
-                                .padding(.horizontal)
-                            Text("FILLING:")
-                                .font(.body)
-                                .padding(.horizontal)
-                            Text("250g cream cheese (room temperature), 200ml condensed milk, 150g white chocolate melted, 150ml cream, 3.5 tsp gelatine powder, 125ml boiling water")
-                                .font(.body)
-                                .padding(.horizontal)
-                            Text("TOPPING: ")
-                                .font(.body)
-                                .padding(.horizontal)
-                            Text("2 mangoes, 4tbs caster sugar, 2tsp gelatine powder, 100ml boiling water")
-                                .font(.body)
-                                .padding(.horizontal)
-                            
-                            
-                        }
-                        .padding(.horizontal)
+                        
                     }
                 
                 }

@@ -25,7 +25,17 @@ struct recipe_dragonfruit_drink: View {
                     // category
                     Text("Drinks")
                         .font(.title).bold()
-                        .padding(.horizontal)
+                        .padding()
+                    
+                    VStack(alignment: .leading) {
+                        Text("Ingredients:")
+                            .font(.title3).bold()
+                        
+                        Text("1 Apple,1 Dragon fruit,½ Mango,1 cup Coconut Milk (optional),Honey")
+                            .font(.body)
+                            .padding(.horizontal)
+                    }
+                    .padding(.horizontal)
                     
                     VStack(alignment: .leading) {
                         VStack(alignment: .leading) {
@@ -45,15 +55,6 @@ struct recipe_dragonfruit_drink: View {
                         .frame(maxHeight: .infinity, alignment: .top)
                         .padding()
                         
-                        VStack(alignment: .leading) {
-                            Text("Ingredients:")
-                                .font(.title3).bold()
-                            
-                            Text("1 Apple,1 Dragon fruit,½ Mango,1 cup Coconut Milk (optional),Honey")
-                                .font(.body)
-                                .padding(.horizontal)
-                        }
-                        .padding(.horizontal)
                     }
                 
                 }

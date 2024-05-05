@@ -25,7 +25,17 @@ struct recipe_empanadas: View {
                     // category
                     Text("Meals")
                         .font(.title).bold()
-                        .padding(.horizontal)
+                        .padding()
+                    
+                    VStack(alignment: .leading) {
+                        Text("Ingredients:")
+                            .font(.title3).bold()
+                        
+                        Text("1 tablespoon Goya Extra Virgin Olive Oil,  ½ pound ground beef, ½ medium yellow onion, finely chopped, ¼ cup Goya Tomato Sauce,  6 Goya Spanish Olives Stuffed with Minced Pimientos, thinly sliced, 2 tablespoons Goya Sofrito, 1 packet Sazon Goya with Coriander and Annatto, 1 teaspoon Goya Minced Garlic, ½ teaspoon Goya Dried Oregano Goya Ground Black Pepper, to taste, 1 (14 ounce) package yellow or white Goya Discos empanada discs, thawed, 1 quart Goya Corn Oil, for frying")
+                            .font(.body)
+                            .padding(.horizontal)
+                    }
+                    .padding(.horizontal)
                     
                     VStack(alignment: .leading) {
                         VStack(alignment: .leading) {
@@ -49,15 +59,7 @@ struct recipe_empanadas: View {
                         .frame(maxHeight: .infinity, alignment: .top)
                         .padding()
                         
-                        VStack(alignment: .leading) {
-                            Text("Ingredients:")
-                                .font(.title3).bold()
-                            
-                            Text("1 tablespoon Goya Extra Virgin Olive Oil,  ½ pound ground beef, ½ medium yellow onion, finely chopped, ¼ cup Goya Tomato Sauce,  6 Goya Spanish Olives Stuffed with Minced Pimientos, thinly sliced, 2 tablespoons Goya Sofrito, 1 packet Sazon Goya with Coriander and Annatto, 1 teaspoon Goya Minced Garlic, ½ teaspoon Goya Dried Oregano Goya Ground Black Pepper, to taste, 1 (14 ounce) package yellow or white Goya Discos empanada discs, thawed, 1 quart Goya Corn Oil, for frying")
-                                .font(.body)
-                                .padding(.horizontal)
-                        }
-                        .padding(.horizontal)
+                        
                     }
                 
                 }

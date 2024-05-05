@@ -25,7 +25,17 @@ struct recipe_choco_chip_cookie: View {
                     // category
                     Text("Desserts")
                         .font(.title).bold()
-                        .padding(.horizontal)
+                        .padding()
+                    
+                    VStack(alignment: .leading) {
+                        Text("Ingredients:")
+                            .font(.title3).bold()
+                        
+                        Text("All purpose flour, Chocolate chips, Cream, Butter, Sugar, Egg, Vanilla")
+                            .font(.body)
+                            .padding(.horizontal)
+                    }
+                    .padding(.horizontal)
                     
                     VStack(alignment: .leading) {
                         VStack(alignment: .leading) {
@@ -49,15 +59,7 @@ struct recipe_choco_chip_cookie: View {
                         .frame(maxHeight: .infinity, alignment: .top)
                         .padding()
                         
-                        VStack(alignment: .leading) {
-                            Text("Ingredients:")
-                                .font(.title3).bold()
-                            
-                            Text("All purpose flour, Chocolate chips, Cream, Butter, Sugar, Egg, Vanilla")
-                                .font(.body)
-                                .padding(.horizontal)
-                        }
-                        .padding(.horizontal)
+                        
                     }
                 
                 }

@@ -25,7 +25,17 @@ struct recipe_italian_meatballs_soup: View {
                     // category
                     Text("Soups")
                         .font(.title).bold()
-                        .padding(.horizontal)
+                        .padding()
+                    
+                    VStack(alignment: .leading) {
+                        Text("Ingredients:")
+                            .font(.title3).bold()
+                        
+                        Text("3 cups of water,  14 ounce of beef broth,  1 package of meatball, and1 package of italian seasoning")
+                            .font(.body)
+                            .padding(.horizontal)
+                    }
+                    .padding(.horizontal)
                     
                     VStack(alignment: .leading) {
                         VStack(alignment: .leading) {
@@ -45,15 +55,7 @@ struct recipe_italian_meatballs_soup: View {
                         .frame(maxHeight: .infinity, alignment: .top)
                         .padding()
                         
-                        VStack(alignment: .leading) {
-                            Text("Ingredients:")
-                                .font(.title3).bold()
-                            
-                            Text("3 cups of water,  14 ounce of beef broth,  1 package of meatball, and1 package of italian seasoning")
-                                .font(.body)
-                                .padding(.horizontal)
-                        }
-                        .padding(.horizontal)
+                        
                     }
                 
                 }

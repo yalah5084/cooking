@@ -25,7 +25,17 @@ struct recipe_chicken_alfredo: View {
                     // category
                     Text("Meals")
                         .font(.title).bold()
-                        .padding(.horizontal)
+                        .padding()
+                    
+                    VStack(alignment: .leading) {
+                        Text("Ingredients:")
+                            .font(.title3).bold()
+                        
+                        Text("Chicken breast, Salt, Pepper, Parmesan cheese, Italian seasoning (optional), Pasta, Olive oil")
+                            .font(.body)
+                            .padding(.horizontal)
+                    }
+                    .padding(.horizontal)
                     
                     VStack(alignment: .leading) {
                         VStack(alignment: .leading) {
@@ -65,15 +75,7 @@ struct recipe_chicken_alfredo: View {
                         .frame(maxHeight: .infinity, alignment: .top)
                         .padding()
                         
-                        VStack(alignment: .leading) {
-                            Text("Ingredients:")
-                                .font(.title3).bold()
-                            
-                            Text("Chicken breast, Salt, Pepper, Parmesan cheese, Italian seasoning (optional), Pasta, Olive oil")
-                                .font(.body)
-                                .padding(.horizontal)
-                        }
-                        .padding(.horizontal)
+                        
                     }
                 
                 }
