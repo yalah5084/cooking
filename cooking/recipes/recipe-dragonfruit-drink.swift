@@ -52,8 +52,13 @@ struct recipe_dragonfruit_drink: View {
                             Text("3. Pour into a cup and serve! ")
                                 .font(.body)
                                 .padding(.horizontal)}
+                        Text("Credit: ___")
+                            .font(.body)
+                            .padding(.vertical, 5)
+                        
                         .frame(maxHeight: .infinity, alignment: .top)
                         .padding()
+                        
                         
                     }
                 

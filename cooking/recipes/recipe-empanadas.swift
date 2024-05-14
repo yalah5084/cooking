@@ -56,6 +56,9 @@ struct recipe_empanadas: View {
                                 .font(.body)
                                 .padding(.horizontal)
                                 }
+                        Text("Credit: AllRecipes")
+                            .font(.body)
+                            .padding(.vertical, 5)
                         .frame(maxHeight: .infinity, alignment: .top)
                         .padding()
                         

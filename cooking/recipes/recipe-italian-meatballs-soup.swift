@@ -54,8 +54,9 @@ struct recipe_italian_meatballs_soup: View {
                                 .padding(.horizontal)}
                         .frame(maxHeight: .infinity, alignment: .top)
                         .padding()
-                        
-                        
+                        Text("Credit: AllRecipes")
+                            .font(.body)
+                            .padding(.vertical, 5)
                     }
                 
                 }

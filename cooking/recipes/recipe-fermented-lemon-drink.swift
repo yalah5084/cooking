@@ -55,13 +55,15 @@ struct recipe_fermented_lemon_drink: View {
                             Text("4. You can scoop out the container and add warm water to drink. Otherwise, ferment the drink in the fridge for as long as 1 month! ")
                                 .font(.body)
                                 .padding(.horizontal)
+                            Text("Credit: Adamant Kitchen")
+                                .font(.body)
+                                .padding(.vertical, 5)
                         }
                         .frame(maxHeight: .infinity, alignment: .top)
                         .padding()
                         
-                        
                     }
-                
+                    
                 }
             }
             .navigationTitle("Fermented Lemon Drink")

@@ -56,6 +56,9 @@ struct recipe_choco_chip_cookie: View {
                                 .font(.body)
                                 .padding(.horizontal)
                                 }
+                        Text("Credit: JoyFoodSunshine")
+                            .font(.body)
+                            .padding(.vertical, 5)
                         .frame(maxHeight: .infinity, alignment: .top)
                         .padding()
                         

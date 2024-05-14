@@ -56,6 +56,9 @@ struct recipe_potato_wedges: View {
                                 .font(.body)
                                 .padding(.horizontal)
                                 }
+                        Text("Credit: Tasty")
+                            .font(.body)
+                            .padding(.vertical, 5)
                         .frame(maxHeight: .infinity, alignment: .top)
                         .padding()
                         

@@ -72,6 +72,9 @@ struct recipe_chicken_alfredo: View {
                                 .padding(.horizontal)
     
                         }
+                        Text("Credit: Belly Full")
+                            .font(.body)
+                            .padding(.vertical, 5)
                         .frame(maxHeight: .infinity, alignment: .top)
                         .padding()
                         

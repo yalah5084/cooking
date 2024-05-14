@@ -82,9 +82,11 @@ struct recipe_mango_cheesecake: View {
                                 .font(.body)
                                 .padding(.horizontal)
                                 }
+                        Text("Credit: Kitchen Mason")
+                            .font(.body)
+                            .padding(.vertical, 5)
                         .frame(maxHeight: .infinity, alignment: .top)
                         .padding()
-                        
                         
                     }
                 
