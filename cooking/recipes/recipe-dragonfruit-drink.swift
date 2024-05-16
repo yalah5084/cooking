@@ -41,7 +41,7 @@ struct recipe_dragonfruit_drink: View {
                         VStack(alignment: .leading) {
                             Text("Instructions:")
                                 .font(.title3).bold()
-                                .padding(.vertical, 5)
+                                .padding([.top, .leading, .bottom], 15.0)
                             
                             Text("1. Cut up the fruits. ")
                                 .font(.body)
@@ -52,7 +52,7 @@ struct recipe_dragonfruit_drink: View {
                             Text("3. Pour into a cup and serve! ")
                                 .font(.body)
                                 .padding(.horizontal)}
-                        Text("Credit: ___")
+                        Text("Credit: Hanna")
                             .font(.body)
                             .padding(.vertical, 5)
                         

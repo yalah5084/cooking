@@ -56,7 +56,7 @@ struct recipe_italian_meatballs_soup: View {
                         .padding()
                         Text("Credit: AllRecipes")
                             .font(.body)
-                            .padding(.vertical, 5)
+                            .padding([.top, .leading, .bottom], 15.0)
                     }
                 
                 }

@@ -41,7 +41,7 @@ struct recipe_empanadas: View {
                         VStack(alignment: .leading) {
                             Text("Instructions:")
                                 .font(.title3).bold()
-                                .padding(.vertical, 5)
+                                .padding([.top, .leading, .bottom], 15.0)
                             
                             Text("1. Heat olive oil in a large skillet over medium heat. Add ground beef; cook and stir until browned and crumbly, approximately 10 minutes. Add onions and cook until soft, approximately 5 minutes.")
                                 .font(.body)
@@ -58,7 +58,7 @@ struct recipe_empanadas: View {
                                 }
                         Text("Credit: AllRecipes")
                             .font(.body)
-                            .padding(.vertical, 5)
+                            .padding([.top, .leading, .bottom], 5)
                         .frame(maxHeight: .infinity, alignment: .top)
                         .padding()
                         

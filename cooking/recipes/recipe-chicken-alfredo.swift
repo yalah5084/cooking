@@ -41,7 +41,7 @@ struct recipe_chicken_alfredo: View {
                         VStack(alignment: .leading) {
                             Text("Instructions:")
                                 .font(.title3).bold()
-                                .padding(.vertical, 5)
+                                .padding([.top, .leading, .bottom], 15.0)
                             
                             Text("1. Boil the noodles until softened. ")
                                 .font(.body)

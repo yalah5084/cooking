@@ -41,7 +41,7 @@ struct recipe_choco_chip_cookie: View {
                         VStack(alignment: .leading) {
                             Text("Instructions:")
                                 .font(.title3).bold()
-                                .padding(.vertical, 5)
+                                .padding([.top, .leading, .bottom], 15.0)
                             
                             Text("1. Mix the all purpose flour with cream, butter and sugar. ")
                                 .font(.body)

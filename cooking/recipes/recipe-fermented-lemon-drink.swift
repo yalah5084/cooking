@@ -41,7 +41,7 @@ struct recipe_fermented_lemon_drink: View {
                         VStack(alignment: .leading) {
                             Text("Instructions:")
                                 .font(.title3).bold()
-                                .padding(.vertical, 5)
+                                .padding([.top, .leading, .bottom], 15.0)
                             
                             Text("1. Cut up the lemons. ")
                                 .font(.body)

@@ -55,7 +55,7 @@ struct recipe_mango_cheesecake: View {
                         VStack(alignment: .leading) {
                             Text("Instructions:")
                                 .font(.title3).bold()
-                                .padding(.vertical, 5)
+                                .padding([.top, .leading, .bottom], 15.0)
                             
                             Text("1. First layer: Smash the biscuits into small pieces. ")
                                 .font(.body)
