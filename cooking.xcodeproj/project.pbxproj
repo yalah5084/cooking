@@ -14,6 +14,9 @@
 		771E71CE2BE1F2EA0080C611 /* recipe-dragonfruit-drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E71CD2BE1F2EA0080C611 /* recipe-dragonfruit-drink.swift */; };
 		771E71D02BE1F39A0080C611 /* recipe-italian-meatballs-soup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E71CF2BE1F3990080C611 /* recipe-italian-meatballs-soup.swift */; };
 		771E71D22BE1F3C10080C611 /* recipe-potato-wedges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E71D12BE1F3C10080C611 /* recipe-potato-wedges.swift */; };
+		77FF6C952C03FE0D003DBEE7 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 77FF6C942C03FE0D003DBEE7 /* Realtime */; };
+		77FF6C972C03FFF7003DBEE7 /* Supabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FF6C962C03FFF7003DBEE7 /* Supabase.swift */; };
+		77FF6C992C040072003DBEE7 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 77FF6C982C040072003DBEE7 /* Supabase */; };
 		AE28EDA42BE1CA0C00EA0B4C /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE28EDA32BE1CA0C00EA0B4C /* HomePage.swift */; };
 		AE2F41F82BA7E1E200796ABD /* cookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2F41F72BA7E1E200796ABD /* cookingApp.swift */; };
 		AE2F41FA2BA7E1E200796ABD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2F41F92BA7E1E200796ABD /* ContentView.swift */; };
@@ -33,6 +36,7 @@
 		771E71CD2BE1F2EA0080C611 /* recipe-dragonfruit-drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "recipe-dragonfruit-drink.swift"; sourceTree = "<group>"; };
 		771E71CF2BE1F3990080C611 /* recipe-italian-meatballs-soup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "recipe-italian-meatballs-soup.swift"; sourceTree = "<group>"; };
 		771E71D12BE1F3C10080C611 /* recipe-potato-wedges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "recipe-potato-wedges.swift"; sourceTree = "<group>"; };
+		77FF6C962C03FFF7003DBEE7 /* Supabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supabase.swift; sourceTree = "<group>"; };
 		AE28EDA32BE1CA0C00EA0B4C /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		AE2F41F42BA7E1E200796ABD /* cooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2F41F72BA7E1E200796ABD /* cookingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cookingApp.swift; sourceTree = "<group>"; };
@@ -50,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77FF6C992C040072003DBEE7 /* Supabase in Frameworks */,
+				77FF6C952C03FE0D003DBEE7 /* Realtime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +98,7 @@
 				AE2F41FB2BA7E1E500796ABD /* Assets.xcassets */,
 				771E71AF2BE1992D0080C611 /* Model */,
 				AE2F41FD2BA7E1E500796ABD /* Preview Content */,
+				77FF6C962C03FFF7003DBEE7 /* Supabase.swift */,
 			);
 			path = cooking;
 			sourceTree = "<group>";
@@ -135,6 +142,10 @@
 			dependencies = (
 			);
 			name = cooking;
+			packageProductDependencies = (
+				77FF6C942C03FE0D003DBEE7 /* Realtime */,
+				77FF6C982C040072003DBEE7 /* Supabase */,
+			);
 			productName = cooking;
 			productReference = AE2F41F42BA7E1E200796ABD /* cooking.app */;
 			productType = "com.apple.product-type.application";
@@ -163,6 +174,9 @@
 				Base,
 			);
 			mainGroup = AE2F41EB2BA7E1E200796ABD;
+			packageReferences = (
+				77FF6C932C03FE0D003DBEE7 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = AE2F41F52BA7E1E200796ABD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -199,6 +213,7 @@
 				771E71CC2BE1F0150080C611 /* recipe-fermented-lemon-drink.swift in Sources */,
 				771E71B12BE19CAF0080C611 /* RecipeModel.swift in Sources */,
 				771E71CE2BE1F2EA0080C611 /* recipe-dragonfruit-drink.swift in Sources */,
+				77FF6C972C03FFF7003DBEE7 /* Supabase.swift in Sources */,
 				AEB125B52BE1FA5D00C0F8B1 /* recipe-choco-chip-cookie.swift in Sources */,
 				AE2F41F82BA7E1E200796ABD /* cookingApp.swift in Sources */,
 				771E71C82BE1EC2E0080C611 /* TabBar.swift in Sources */,
@@ -406,6 +421,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		77FF6C932C03FE0D003DBEE7 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		77FF6C942C03FE0D003DBEE7 /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 77FF6C932C03FE0D003DBEE7 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		77FF6C982C040072003DBEE7 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 77FF6C932C03FE0D003DBEE7 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AE2F41EC2BA7E1E200796ABD /* Project object */;
 }
