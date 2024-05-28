@@ -27,15 +27,62 @@ struct recipe_empanadas: View {
                         .font(.title).bold()
                         .padding()
                     
+//                    VStack(alignment: .leading) {
+//                        Text("Ingredients:")
+//                            .font(.title3).bold()
+//                        
+//                        Text("1 tablespoon Goya Extra Virgin Olive Oil,  ½ pound ground beef, ½ medium yellow onion, finely chopped, ¼ cup Goya Tomato Sauce,  6 Goya Spanish Olives Stuffed with Minced Pimientos, thinly sliced, 2 tablespoons Goya Sofrito, 1 packet Sazon Goya with Coriander and Annatto, 1 teaspoon Goya Minced Garlic, ½ teaspoon Goya Dried Oregano Goya Ground Black Pepper, to taste, 1 (14 ounce) package yellow or white Goya Discos empanada discs, thawed, 1 quart Goya Corn Oil, for frying")
+//                            .font(.body)
+//                            .padding(.horizontal)
+//                    }
+//                    .padding(.horizontal)
+//                    
+                    
+                    
                     VStack(alignment: .leading) {
                         Text("Ingredients:")
-                            .font(.title3).bold()
-                        
-                        Text("1 tablespoon Goya Extra Virgin Olive Oil,  ½ pound ground beef, ½ medium yellow onion, finely chopped, ¼ cup Goya Tomato Sauce,  6 Goya Spanish Olives Stuffed with Minced Pimientos, thinly sliced, 2 tablespoons Goya Sofrito, 1 packet Sazon Goya with Coriander and Annatto, 1 teaspoon Goya Minced Garlic, ½ teaspoon Goya Dried Oregano Goya Ground Black Pepper, to taste, 1 (14 ounce) package yellow or white Goya Discos empanada discs, thawed, 1 quart Goya Corn Oil, for frying")
-                            .font(.body)
-                            .padding(.horizontal)
+                        .font(.title3).bold()
+                        Text("• 1 tablespoon Goya extra virgin olive oil")
+                        .font(.body)
+                        .padding(.horizontal)
+                        Text("• ½ pound ground beef")
+                        .font(.body)
+                        .padding(.horizontal)
+                        Text("• ½ medium yellow onion, finely chopped")
+                        .font(.body)
+                        .padding(.horizontal)
+                        Text("• ¼ cup Goya tomato sauce")
+                        .font(.body)
+                        .padding(.horizontal)
+                        Text("• 6 Goya spanish olives stuffed with minced pimientos")
+                        .font(.body)
+                        .padding(.horizontal)
+                        Text("• 2 tablespoons of Goya sofrito")
+                        .font(.body)
+                        .padding(.horizontal)
+                        Text("• 1 packet Sazón Goya with coriander and annatto")
+                        .font(.body)
+                        .padding(.horizontal)
+                        Text("• 1 teaspoon Goya minced garlic")
+                        .font(.body)
+                        .padding(.horizontal)
+                        Text("• ½ teaspoon Goya dried oregano")
+                        .font(.body)
+                        .padding(.horizontal)
+                        Text("• Goya ground black pepper to taste")
+                        .font(.body)
+                        .padding(.horizontal)
+                        Text("• 1 (14 ounce) package yellow or white Goya discos empanada discs")
+                        .font(.body)
+                        .padding(.horizontal)
+                        Text("• 1 quart Goya corn oil for frying")
+                        .font(.body)
+                        .padding(.horizontal)
                     }
                     .padding(.horizontal)
+
+                    
+                    
                     
                     VStack(alignment: .leading) {
                         VStack(alignment: .leading) {

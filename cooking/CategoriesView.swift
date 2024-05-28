@@ -1,18 +1,31 @@
+////
+////  CategoriesView.swift
+////  cooking
+////
+////  Created by hanna li on 4/30/24.
+////
 //
-//  CategoriesView.swift
-//  cooking
+//import SwiftUI
 //
-//  Created by hanna li on 4/30/24.
+//struct CategoriesView: View {
+//    var body: some View {
+//            NavigationView {
+//                List {
+//                    
+//                ForEach(Category.allCases) { category in
+//                    NavigationLink {
+//                        CategoryView(category: category)
+//                    } label: {
+//                        Text(category.rawValue + "s")
+//                    }
+//                }//ForEach
+//            }//NV
+//            .navigationTitle("Categories")
+//        }
+//        .navigationViewStyle(.stack)
+//    }//body
+//}//struct
 //
-
-import SwiftUI
-
-struct CategoriesView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-#Preview {
-    CategoriesView()
-}
+//#Preview {
+//    CategoriesView()
+//}

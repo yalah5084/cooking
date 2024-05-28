@@ -27,15 +27,46 @@ struct recipe_choco_chip_cookie: View {
                         .font(.title).bold()
                         .padding()
                     
+//                    VStack(alignment: .leading) {
+//                        Text("Ingredients:")
+//                            .font(.title3).bold()
+//                        
+//                        Text("All purpose flour, Chocolate chips, Cream, Butter, Sugar, Egg, Vanilla")
+//                            .font(.body)
+//                            .padding(.horizontal)
+//                    }
+//                    .padding(.horizontal)
+                    
+                    
                     VStack(alignment: .leading) {
                         Text("Ingredients:")
-                            .font(.title3).bold()
-                        
-                        Text("All purpose flour, Chocolate chips, Cream, Butter, Sugar, Egg, Vanilla")
-                            .font(.body)
-                            .padding(.horizontal)
+                        .font(.title3).bold()
+                        Text("• All purpose flour")
+                        .font(.body)
+                        .padding(.horizontal)
+                        Text("• Chocolate chips")
+                        .font(.body)
+                        .padding(.horizontal)
+                        Text("• Cream")
+                        .font(.body)
+                        .padding(.horizontal)
+                        Text("• Butter")
+                        .font(.body)
+                        .padding(.horizontal)
+                        Text("• Sugar")
+                        .font(.body)
+                        .padding(.horizontal)
+                        Text("• Egg")
+                        .font(.body)
+                        .padding(.horizontal)
+                        Text("• Vanilla")
+                        .font(.body)
+                        .padding(.horizontal)
                     }
                     .padding(.horizontal)
+
+                    
+                    
                     
                     VStack(alignment: .leading) {
                         VStack(alignment: .leading) {

@@ -18,7 +18,10 @@ struct TabBar: View {
 //                .tabItem {
 //                    Label("Categories", systemImage: "square.fill.text.grid.1x2")
 //                }
-//            //
+            NewRecipeView()
+                .tabItem {
+                    Label("New", systemImage: "plus")
+                }
         }
     }
 }

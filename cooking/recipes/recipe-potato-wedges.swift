@@ -24,18 +24,43 @@ struct recipe_potato_wedges: View {
                     
                     // category
                     Text("Snacks")
-                        .font(.title).bold()
-                        .padding()
+                       .font(.title).bold()
+                       .padding()
+//                    
+//                    VStack(alignment: .leading) {
+//                        Text("Ingredients:")
+//                            .font(.title3).bold()
+//                        
+//                        Text("Potatoes, Oil, Salt, Sugar")
+//                            .font(.body)
+//                            .padding(.horizontal)
+//                    }
+//                    .padding(.horizontal)
+                    
+                    
                     
                     VStack(alignment: .leading) {
                         Text("Ingredients:")
-                            .font(.title3).bold()
-                        
-                        Text("Potatoes, Oil, Salt, Sugar")
-                            .font(.body)
-                            .padding(.horizontal)
+                        .font(.title3).bold()
+                        Text("• Potatoes")
+                        .font(.body)
+                        .padding(.horizontal)
+                        Text("• Oil")
+                        .font(.body)
+                        .padding(.horizontal)
+                        Text("• Salt")
+                        .font(.body)
+                        .padding(.horizontal)
+                        Text("• Sugar")
+                        .font(.body)
+                        .padding(.horizontal)
                     }
                     .padding(.horizontal)
+
+                    
+                    
+                    
+                    
                     
                     VStack(alignment: .leading) {
                         VStack(alignment: .leading) {

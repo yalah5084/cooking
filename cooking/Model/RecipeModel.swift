@@ -9,9 +9,10 @@ import Foundation
 
 enum Catogory: String {
     case drinks = "drinks"
-    case soup = "soup"
+    case soups = "soups"
     case snacks = "snacks"
     case meals = "meals"
+    case desserts = "desserts"
 }
 
 struct Recipe: Identifiable {

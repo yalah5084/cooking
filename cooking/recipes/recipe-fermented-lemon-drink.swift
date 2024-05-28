@@ -26,16 +26,39 @@ struct recipe_fermented_lemon_drink: View {
                     Text("Drinks")
                         .font(.title).bold()
                         .padding()
+//                    
+//                    VStack(alignment: .leading) {
+//                        Text("Ingredients:")
+//                            .font(.title3).bold()
+//                        
+//                        Text("Lemons (5 is enough), Honey, Sugar, Warm water")
+//                            .font(.body)
+//                            .padding(.horizontal)
+//                    }
+//                    .padding(.horizontal)
                     
                     VStack(alignment: .leading) {
                         Text("Ingredients:")
                             .font(.title3).bold()
-                        
-                        Text("Lemons (5 is enough), Honey, Sugar, Warm water")
-                            .font(.body)
-                            .padding(.horizontal)
+                        Text("• Lemons (5 is enough)")
+                        .font(.body)
+                        .padding(.horizontal)
+                        Text("• Honey")
+                        .font(.body)
+                        .padding(.horizontal)
+                        Text("• Sugar")
+                        .font(.body)
+                        .padding(.horizontal)
+                        Text("• Warm water")
+                        .font(.body)
+                        .padding(.horizontal)
                     }
                     .padding(.horizontal)
+
+                    
+                    
+                    
+                    
                     
                     VStack(alignment: .leading) {
                         VStack(alignment: .leading) {
